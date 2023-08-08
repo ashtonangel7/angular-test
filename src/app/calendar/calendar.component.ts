@@ -11,6 +11,6 @@ export class CalendarComponent implements OnInit {
   public selectedDate = new Date();
 
   ngOnInit(): void {
-    
+    //throw new Error("Testing error.");
   }
 }
